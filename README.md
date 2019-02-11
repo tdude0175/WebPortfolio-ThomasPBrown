@@ -20,3 +20,12 @@ Use HTML, CSS, and JavaScript to make your portfolio aesthetically pleasing.
 - 8pts:content is simple and to the point. Design is easy to understand in many ways color is appropriately used to produce an atmosphere that expresses the character of the Web site. 
 - 4pts: web page is somewhat busy. People reading it will have difficulty finding what they want quickly. Excessive use of graphic elements. Color is used somewhat appropriately to produce an atmosphere that expresses the character of the Web site.
 - 2pt: Web page is too busy. People reading it cannot find what they want quickly. Excessive use of graphic elements
+
+# Inspiration
+- http://www.creative-portfolios.com/
+- https://www.siteinspire.com/
+- http://danielrd.com/
+- https://tylercharboneau.com/
+- https://amitozdeol.github.io/
+- http://sorenromer.com/
+- https://www.clemsonwebdesign.com/
