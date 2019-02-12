@@ -55,3 +55,4 @@ Make sure you include the following pages:
 - https://amitozdeol.github.io/
 - http://sorenromer.com/
 - https://www.clemsonwebdesign.com/
+- https://daneden.github.io/animate.css/
