@@ -1,0 +1,169 @@
+body
+{
+    text-align: center;
+    margin: 3%;
+    display: grid;
+    grid-template-columns: repeat(12,1fr);
+    grid-template-rows: repeat(9,1fr) 15%;
+    grid-gap: 5vh;
+}
+
+header
+{
+    padding: 3%;
+    margin-left: 6%;
+    width: 74%;
+    height: 10%;
+    position: fixed;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-gap: 5%;
+}
+
+footer
+{
+    grid-column: 1/13;
+    grid-row: 10;
+    border: 1px solid greenyellow;
+    display: grid;
+    grid-template-columns: 30% 1fr 30%;
+    grid-template-rows: 1fr 1fr;
+}
+
+/********************************************PageSelector*************************************************************/
+#CurrentPage
+{
+    grid-column: 1;
+    font-weight: bolder;
+}
+#leftPage
+{
+    grid-column: 2;
+}
+#centerPage
+{
+    grid-column: 3;
+}
+#rightPage
+{
+    grid-column: 4;
+}
+.top
+{
+    text-decoration-line: none;
+    color: darkgreen;
+}
+header div , header span
+{
+    padding: 13%;
+}
+
+
+/***************************************************Home**************************************************************/
+#greeting
+{
+    grid-column:5/9 ;
+    grid-row: 2/3;
+}
+#resume
+{
+    grid-column: 2/7;
+    grid-row: 6/9;
+    border: 1px solid lightcoral;
+}
+#history
+{
+    border: 1px solid gray;
+    grid-column:5/11;
+    grid-row: 3/5;
+}
+#minorInfo
+{
+    grid-column: 8/11;
+    grid-row: 6/8;
+    border: 1px solid goldenrod;
+}
+#minorInfo h5
+{
+    position: relative;
+    top: 50%;
+}
+#gmail
+{
+    grid-column: 1;
+    grid-row: 1;
+}
+#otherInfo
+{
+    grid-column: 1;
+    grid-row: 2;
+}
+#codeCrew
+{
+    grid-column: 3;
+    grid-row: 1;
+}
+#youTube
+{
+    grid-column: 3;
+    grid-row: 2;
+}
+
+/************************************************Skills**************************************************************/
+#languages
+{
+    grid-column: 2/6;
+    grid-row: 4/8;
+}
+#languageTable
+{
+    width: 100%;
+    height: 100%;
+}
+table tr , table tr td
+{
+    /*border: 1px solid blue;*/
+    border-style: ridge;
+    border-radius: 10%;
+}
+
+
+#usedSystems
+{
+    grid-column: 7/9;
+    grid-row: 4/7;
+}
+#operatingSystems
+{
+    grid-column: 9/11;
+    grid-row: 4/7;
+}
+
+#otherSkills
+{
+
+}
+
+/**********************************************Projects***************************************************************/
+
+
+#ideaList
+{
+    grid-column: 2/5;
+    grid-row: 4/7;
+}
+
+/*********************************************Education***************************************************************/
+
+
+#educationLevel
+{
+    grid-column: 2/6;
+    grid-row: 4/7;
+}
+
+#reflections
+{
+    grid-column: 8/12;
+    grid-row: 5/8;
+}
