@@ -42,6 +42,8 @@ Make sure you include the following pages:
 - Contact
   - How can someone get in contact with you? Leave a way for people to sign up. MailChimp, SendGrid, or a Google Form.
 
+- Weekly Reflections
+  - Show your weekly reflections of the class using video, audio, or text.
 
 # Inspiration
 - http://www.creative-portfolios.com/
