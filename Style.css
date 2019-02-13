@@ -195,7 +195,7 @@ table tr , table tr td
 
 /**********************************************Projects***************************************************************/
 
-body h5
+body #Pointcounter
 {
     position: fixed;
     margin: 0;
@@ -235,6 +235,19 @@ body h5
     color: blue;
     height: 200%;
 }
+#gameProject:hover ~ #gameFacts
+{
+    display: block;
+    z-index: 1;
+}
+#gameFacts
+{
+    grid-column: 7/11;
+    grid-row: 4/7;
+    display: none;
+    transition: 2s;
+}
+
 
 /*********************************************Education***************************************************************/
 
