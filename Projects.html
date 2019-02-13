@@ -4,35 +4,41 @@
     <meta charset="UTF-8">
     <title>Projects</title>
     <link rel="stylesheet" href="Style.css">
-
+    <script src="jquery-3.3.1.js"></script>
+    <style>
+        @import url('https://fonts.googleapis.com/css?family=Acme|Cinzel|Kdam+Thmor|Righteous|Teko');
+    </style>
 </head>
-<body>
+<body id="midnight">
+<h5>Points: <span id="points">0</span></h5>
 <header>
     <span id="CurrentPage">Projects</span>
-    <div id="leftPage"><a class="top"  href="Skills.html">Skills</a></div>
-    <div id="centerPage"><a class="top"  href="index.html">Home</a></div>
-    <div id="rightPage"><a class="top"  href="Education.html">Education</a></div>
+    <div id="leftPage"><a class="top"  href="index.html"><button>Home</button></a></div>
+    <div id="centerPage"><a class="top"  href="Skills.html"><button>Skills</button></a></div>
+    <div id="rightPage"><a class="top"  href="Education.html"><button>Education</button></a></div>
 </header>
 <section id="greeting">
     <h2>Past and current Projects.</h2>
 </section>
-
+<img id="star1" class="star" alt="Star" src="clipart468420.png" height="25%" width="25%"/>
+<img id="star2" class="star" alt="Star" src="clipart468420.png" height="25%" width="25%"/>
+<img id="star3" class="star" alt="Star" src="clipart468420.png" height="25%" width="25%"/>
 <section id="ideaList">
     <table>
         <tr>
             <th>Current ideas</th>
         </tr>
         <tr>
-            <td>game</td>
+            <td id="gameProject">game</td>
         </tr>
         <tr>
-        <td>stuff</td>
+        <td id="stuffProject">stuff</td>
         </tr>
         <tr>
-             <td>stuff</td>
+             <td id="otherStuffProject">stuff</td>
          </tr>
         <tr>
-            <td>fantastic idea</td>
+            <td id="amazingIdea">fantastic idea</td>
         </tr>
         <tr>
         <td>pointless</td>
@@ -42,11 +48,12 @@
 
 
 
+
 <footer>
-    <div id="gmail">Gmail</div>
+    <div id="gmail"><a href="mailto:tdude0175@gmail.com" target="_top">Gmail</a></div>
     <div id="otherInfo">?</div>
-    <div id="codeCrew">CodeCrew Link</div>
-    <div id="youTube">Code Journey Link</div>
+    <div id="codeCrew"><a href="https://www.code-crew.org/">CodeCrew Link</a></div>
+    <div id="youTube"><a href="https://www.youtube.com/playlist?list=PLKzeSysPxkHEEp8xj1_g6ADCsPadJbgWd">Weekly Vlog</a></div>
 </footer>
 <script src="Javascript.js"></script>
 </body>
