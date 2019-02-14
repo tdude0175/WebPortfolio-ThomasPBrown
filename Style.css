@@ -1,3 +1,4 @@
+/*******************************************General page layout and style*********************************************/
 #dusk
 {
     color: darkslategrey;
@@ -33,7 +34,7 @@ body
 
 header
 {
-    padding: 3%;
+    padding: 2%;
     margin-left: 9%;
     width: 74%;
     height: 10%;
@@ -128,7 +129,6 @@ button
 {
     grid-column: 2/7;
     grid-row: 6/9;
-    border: 1px solid lightcoral;
 }
 #history
 {
@@ -142,6 +142,7 @@ button
 }
 #minorInfo h5
 {
+    z-index: -1;
     position: relative;
     top: 50%;
 }
@@ -164,6 +165,11 @@ button
 {
     grid-column: 3;
     grid-row: 2;
+}
+#resumePDF
+{
+    height: 90%;
+    width: 90%;
 }
 /************************************************Skills**************************************************************/
 #languages
@@ -229,13 +235,13 @@ body #Pointcounter
     grid-row: 5;
 }
 
-#gameProject
+.ideaList
 {
     transition:color 1s;
 }
-#gameProject:hover
+.ideaList:hover
 {
-    color: blue;
+    color: navajowhite;
 }
 
 .detailsList
