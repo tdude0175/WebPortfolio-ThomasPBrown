@@ -1,20 +1,24 @@
 #dusk
 {
+    color: darkslategrey;
     font-family:'Acme', sans-serif ;
     background-image: repeating-linear-gradient(to bottom , skyblue,darkorange);
 }
 #twilight
 {
+    color: lightgray;
     font-family:'Cinzel', serif;
     background-image: repeating-linear-gradient(to top , darkgoldenrod, darkblue);
 }
 #midnight
 {
+    color: yellow;
     font-family:'Righteous',cursive ;
     background-image: repeating-linear-gradient(to bottom left , midnightblue , black);
 }
 #dawn
 {
+    color: lightblue;
     background-image: repeating-linear-gradient(to bottom, darkblue , goldenrod);
 }
 body
@@ -54,20 +58,19 @@ a
     color: blueviolet;
 }
 /********************************************PageSelector*************************************************************/
-#CurrentPage
+#Home
 {
     grid-column: 1;
-    font-weight: bolder;
 }
-#leftPage
+#Skills
 {
     grid-column: 2;
 }
-#centerPage
+#Projects
 {
     grid-column: 3;
 }
-#rightPage
+#Education
 {
     grid-column: 4;
 }
@@ -94,6 +97,10 @@ button
     background: none;
     font-weight: bold;
     font-size: 80%;
+}
+.currentPage
+{
+    font-weight: bolder;
 }
 #dusk header div , #dusk header span
 {
@@ -206,10 +213,6 @@ body #Pointcounter
     grid-column: 2/5;
     grid-row: 4/7;
 }
-#midnight
-{
-    color: yellow;
-}
 #star1
 {
     grid-column: 7;
@@ -228,24 +231,19 @@ body #Pointcounter
 
 #gameProject
 {
-    transition: height 2s,color 2s;
+    transition:color 1s;
 }
 #gameProject:hover
 {
     color: blue;
-    height: 200%;
 }
-#gameProject:hover ~ #gameFacts
-{
-    display: block;
-    z-index: 1;
-}
-#gameFacts
+
+.detailsList
 {
     grid-column: 7/11;
     grid-row: 4/7;
-    display: none;
-    transition: 2s;
+    display: block;
+    opacity: 0;
 }
 
 

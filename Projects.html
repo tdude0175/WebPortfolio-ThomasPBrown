@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <title>Projects</title>
+    <link rel="stylesheet" href="animate.css">
     <link rel="stylesheet" href="Style.css">
     <script src="jquery-3.3.1.js"></script>
     <style>
@@ -12,10 +13,10 @@
 <body id="midnight">
 <h5 id="Pointcounter">Points: <span id="points">0</span></h5>
 <header>
-    <span id="CurrentPage">Projects</span>
-    <div id="leftPage"><a class="top"  href="index.html"><button>Home</button></a></div>
-    <div id="centerPage"><a class="top"  href="Skills.html"><button>Skills</button></a></div>
-    <div id="rightPage"><a class="top"  href="Education.html"><button>Education</button></a></div>
+    <div id="Home"><a class="top"  href="index.html"><button>Home</button></a></div>
+    <div id="Skills"><a class="top"  href="Skills.html"><button>Skills</button></a></div>
+    <span id="Projects" class="currentProject">Projects</span>
+    <div id="Education"><a class="top"  href="Education.html"><button>Education</button></a></div>
 </header>
 <section id="greeting">
     <h2>Past and current Projects.</h2>
@@ -29,34 +30,50 @@
             <th>Current ideas</th>
         </tr>
         <tr>
-            <td id="gameProject">game</td>
+            <td class="ideaList" id="gameProject">game</td>
         </tr>
         <tr>
-        <td id="stuffProject">stuff</td>
+        <td class="ideaList" id="stuffProject">stuff</td>
         </tr>
         <tr>
-             <td id="otherStuffProject">stuff</td>
+             <td class="ideaList" id="otherStuffProject">Other stuff</td>
          </tr>
         <tr>
-            <td id="amazingIdea">fantastic idea</td>
+            <td class="ideaList" id="amazingIdea">fantastic idea</td>
         </tr>
         <tr>
-        <td>pointless</td>
+        <td class="ideaList">pointless</td>
         </tr>
     </table>
 </section>
 
-<div id="gameFacts">
+<div id="gameFacts" class="detailsList animated ">
     <h3>Game</h3>
-    <p>This section is where i would have either games made or ideas in the works and such.</p>
+    <p>This section is where I would have either games made or ideas in the works and such.</p>
+</div>
+<div id="stuffDetails" class="detailsList animated ">
+    <h3>Stuff</h3>
+    <p>This section is where I could have different works i've done and how their statistics.</p>
+</div>
+<div id="otherStuffDetails" class=" detailsList animated ">
+    <h3>Other Stuff</h3>
+    <p>This section is where there could be even more projects i've been involved in.</p>
+</div>
+<div id="amazingIdeaDetails" class="detailsList animated ">
+    <h3>Great Idea!</h3>
+    <p>This section is where you would get blown away by my amazing idea.</p>
+</div>
+<div id="nothingImportant" class="detailsList animated ">
+    <h3>Why did i put this in here?</h3>
+    <p>cause i thought it would be a good idea at the time.</p>
 </div>
 
 
 <footer>
-    <div id="gmail"><a href="mailto:tdude0175@gmail.com" target="_top">Gmail</a></div>
+    <div id="gmail"><a href="mailto:tdude0175@gmail.com" target="_blank">Gmail</a></div>
     <div id="otherInfo">?</div>
-    <div id="codeCrew"><a href="https://www.code-crew.org/">CodeCrew Link</a></div>
-    <div id="youTube"><a href="https://www.youtube.com/playlist?list=PLKzeSysPxkHEEp8xj1_g6ADCsPadJbgWd">Weekly Vlog</a></div>
+    <div id="codeCrew"><a href="https://www.code-crew.org/" target="_blank">CodeCrew Link</a></div>
+    <div id="youTube"><a href="https://www.youtube.com/playlist?list=PLKzeSysPxkHEEp8xj1_g6ADCsPadJbgWd" target="_blank">Weekly Vlog</a></div>
 </footer>
 <script src="Javascript.js"></script>
 </body>

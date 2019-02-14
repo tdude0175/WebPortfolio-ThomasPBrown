@@ -1,29 +1,45 @@
 function giveThemPoints(e)
 {
     score.innerHTML++;
-    e.target.style.display = "none";
+    e.target.classList.add("animated","fadeOutDown");
 }
 
-function showThing()
+function showThing(e)
 {
-    gameFacts.style.display = "block"
+    for(let i=0; i < ideaList.length; i++) {
+        if (e.target.id === ideaList[i].id)
+        {
+            ideaDetailList[i].style.opacity = "100%";
+            ideaDetailList[i].classList.remove("fadeOut");
+            ideaDetailList[i].classList.add("fadeIn")
+        }
+    }
 }
 
-function hideThing()
+function hideThing(e)
 {
-    gameFacts.style.display = "none";
+    for(let i=0; i < ideaList.length; i++) {
+        if (e.target.id === ideaList[i].id)
+        {
+            ideaDetailList[i].classList.remove("fadein");
+            ideaDetailList[i].classList.add("fadeOut");
+        }
+    }
 }
 
 var score = document.getElementById("points");
 var starsForGame = document.getElementsByClassName("star");
-var gameProject = document.getElementById("gameProject");
-var gameFacts = document.getElementById("gameFacts");
+var ideaList= document.getElementsByClassName("ideaList");
+var ideaDetailList= document.getElementsByClassName("detailsList");
 
 for(let i=0; i < starsForGame.length; i++)
 {
     starsForGame[i].addEventListener("click", giveThemPoints)
 }
 
-gameProject.addEventListener("mouseover", showThing);
+for(let i=0; i < ideaList.length; i++)
+{
+    ideaList[i].addEventListener("mouseover", showThing);
+    ideaList[i].addEventListener("mouseout",hideThing);
+}
 
-gameProject.addEventListener("mouseout",hideThing);
