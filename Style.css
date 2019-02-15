@@ -28,7 +28,7 @@ body
     margin: 3%;
     display: grid;
     grid-template-columns: repeat(12,1fr);
-    grid-template-rows: repeat(9,1fr) 15%;
+    grid-template-rows: repeat(8,1fr) 15%;
     grid-gap: 5vh;
 }
 
@@ -57,6 +57,8 @@ a
 {
     text-decoration-line: none;
     color: blueviolet;
+    font-style: italic;
+    font-family:'Righteous',cursive ;
 }
 /********************************************PageSelector*************************************************************/
 #Home
@@ -123,7 +125,7 @@ button
 #greeting
 {
     grid-column:5/9 ;
-    grid-row: 2/3;
+    grid-row: 2/4;
 }
 #resume
 {
@@ -133,7 +135,7 @@ button
 #history
 {
     grid-column:5/11;
-    grid-row: 3/5;
+    grid-row: 4/6;
 }
 #minorInfo
 {
@@ -234,14 +236,14 @@ body #Pointcounter
     grid-column: 5;
     grid-row: 5;
 }
-
 .ideaList
 {
-    transition:color 1s;
+    color: yellow;
+    transition: color 300ms;
 }
 .ideaList:hover
 {
-    color: navajowhite;
+    color: blueviolet;
 }
 
 .detailsList
@@ -265,5 +267,5 @@ body #Pointcounter
 #reflections
 {
     grid-column: 8/12;
-    grid-row: 5/8;
+    grid-row: 4/8;
 }
