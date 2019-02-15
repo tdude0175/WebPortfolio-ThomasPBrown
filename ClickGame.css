@@ -1,0 +1,67 @@
+html,body
+{
+    height: 80%;
+}
+body
+{
+    text-align: center;
+    margin: 5% 20%;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: 20% 1fr 20% 1% ;
+    /*border: 1px solid black;*/
+}
+
+/*use a grid system to display pieces and some nested grid systems as well in a couple of spots*/
+header
+{
+    grid-column: 1/4;
+    grid-row: 1;
+    /*border: 1px solid purple;*/
+}
+
+section
+{
+    grid-column: 1/4;
+    grid-row: 2;
+    /*border: 1px solid blue;*/
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+}
+
+section
+{
+    border: 1px solid deepskyblue;
+}
+
+footer
+{
+    grid-column: 1/4;
+    grid-row: 3;
+    border: 1px solid lightcoral;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+}
+
+p
+{
+    grid-column: 2;
+    grid-row: 4;
+}
+.alignRight
+{
+    text-align: right;
+}
+
+/*to make the buttons loop preety*/
+.padd
+{
+    padding: 20%;
+    border-radius: 100%;
+}
+
+/*this would be sued for changing the color background and text settings for the buttons*/
+.score
+{
+
+}

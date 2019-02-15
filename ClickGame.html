@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="ClickGame.css">
+
+</head>
+<body>
+<header><h1>Click Game</h1></header>
+<section>
+    <div>
+        <h3 class="score" id="playerOneScore">0</h3>
+        p1 score
+        <button disabled class="padd" id="pOneButton">P1</button>
+    </div>
+    <div>
+        lead
+        <h6 id="playerLead"> player</h6>
+    </div>
+    <div>
+        <h3 class="score" id="playerTwoScore">0</h3>
+        p2 score
+        <button disabled class="padd" id="pTwoButton">P2</button>
+    </div>
+</section>
+<footer>
+    <span class="alignRight">
+        <button id="startButton">Start Game</button>
+        Options
+        <h6 id="timer">0:00:00</h6>
+    </span>
+    <div>
+        Game Type:
+        <button  id="settingsKeyboard">keyBoard(A&L)</button>
+        <button disabled id="settingsMouse">Mouse</button>
+    </div>
+    <div>
+        various colors and such:
+        <button id="textButton">text:Black</button>
+        <button id="numberStyle">Numbers:bold</button>
+        <button id="backgroundColor">background:white</button>
+    </div>
+</footer>
+<p>Made by Thomas P Brown</p>
+<script src="ClickGame.js"></script>
+</body>
+</html>

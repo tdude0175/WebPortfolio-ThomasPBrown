@@ -1,0 +1,65 @@
+td
+{
+
+    text-align: center;
+    font-size: 500%;
+    width: 100px;
+    height: 100px;
+    /*border: 1px solid black;*/
+}
+
+/*.topRow*/
+/*{*/
+    /*border-bottom: 1px solid black;*/
+/*}*/
+
+/*.middleRow*/
+/*{*/
+
+/*}*/
+
+/*.bottomRow*/
+/*{*/
+    /*border-top: 1px solid black;*/
+/*}*/
+
+/*.leftRow*/
+/*{*/
+    /*border-right: 1px solid black;*/
+/*}*/
+
+/*.rightRow*/
+/*{*/
+    /*border-left: 1px solid black;*/
+/*}*/
+
+/*.centerRow*/
+/*{*/
+
+/*}*/
+
+h1,h2
+{
+    text-align: center;
+}
+/*h2 for player alignment*/
+table
+{
+    margin: auto;
+}
+.vertical
+{
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+}
+
+.horizontal
+{
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+}
+td:hover
+{
+    background-color: gray;
+}
+/*keep it pretty*/
