@@ -8,9 +8,11 @@ function giveThemPoints(e)
 //function for Showing project details when highlighting a project idea
 function showThing(e)
 {           //runs through list of items and figures out which one to show
+    listInfo.classList.add("animated","fadeOut");
     for(let i=0; i < ideaList.length; i++) {
         if (e.target.id === ideaList[i].id)
         {
+
             ideaDetailList[i].style.opacity = "100%";
             ideaDetailList[i].classList.remove("fadeOut");
             ideaDetailList[i].classList.add("fadeIn")
@@ -21,6 +23,8 @@ function showThing(e)
 //function for hiding project details when mouseCursor leaves the project idea text
 function hideThing(e)
 {
+    listInfo.classList.remove("fadeOut");
+    listInfo.classList.add("fadeIn");
     for(let i=0; i < ideaList.length; i++) {
         if (e.target.id === ideaList[i].id)
         {       //Similar set up to {showThing} but does the opposite
@@ -36,6 +40,8 @@ var score = document.getElementById("points");
 var starsForGame = document.getElementsByClassName("star");
 var ideaList= document.getElementsByClassName("ideaList");
 var ideaDetailList= document.getElementsByClassName("detailsList");
+var listInfo = document.getElementById("listInformation");
+console.log(listInfo)
 
 
 //add event listeners for every star
