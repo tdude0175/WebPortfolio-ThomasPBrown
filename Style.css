@@ -9,21 +9,16 @@
 }
 #twilight
 {
-    /*color: lightgray;*/
-    /*font-family:'Cinzel', serif;*/
-    /*background-image: repeating-linear-gradient(to top , darkgoldenrod, darkblue);*/
+
 }
 #midnight
 {
-    /*color: yellow;*/
-    /*font-family:'Righteous',cursive ;*/
-    /*background-image: repeating-linear-gradient(to bottom left , midnightblue , black);*/
+
     grid-template-rows: repeat(6,1fr)15%;
 }
 #dawn
 {
-    /*color: lightblue;*/
-    /*background-image: repeating-linear-gradient(to bottom, darkblue , goldenrod);*/
+
     grid-template-rows: repeat(7,1fr) 15% ;
 }
 body
