@@ -1,8 +1,18 @@
-div
+#displayBlock
 {
+    display: grid;
+    grid-template-columns:repeat(20,1fr) ;
+    grid-template-rows:repeat(20,1fr) ;
+    grid-gap: 0.5em;
+}
+
+
+.flyingCodeCrew
+{
+    grid-column: 1/3;
+    grid-row: 1/4;
     position: relative;
-    padding: 1% 0;
-    width:20%;
+    width: 100%;
     background-color: blue;
 }
 /*[PADDING] used for it to be easier to see*/

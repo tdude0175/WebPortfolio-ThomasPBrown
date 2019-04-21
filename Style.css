@@ -1,38 +1,44 @@
 /*******************************************General page layout and style*********************************************/
 #dusk
 {
-    color: darkslategrey;
-    font-family:'Acme', sans-serif ;
-    background-image: repeating-linear-gradient(to bottom, skyblue , pink);
+    /*color: darkslategrey;*/
+    /*font-family:'Acme', sans-serif ;*/
+    /*background-image: repeating-linear-gradient(to bottom, skyblue , pink);*/
     grid-template-rows: repeat(6,1fr) 15%;
 }
 #twilight
 {
-    color: lightgray;
-    font-family:'Cinzel', serif;
-    background-image: repeating-linear-gradient(to top , darkgoldenrod, darkblue);
+    /*color: lightgray;*/
+    /*font-family:'Cinzel', serif;*/
+    /*background-image: repeating-linear-gradient(to top , darkgoldenrod, darkblue);*/
 }
 #midnight
 {
-    color: yellow;
-    font-family:'Righteous',cursive ;
-    background-image: repeating-linear-gradient(to bottom left , midnightblue , black);
+    /*color: yellow;*/
+    /*font-family:'Righteous',cursive ;*/
+    /*background-image: repeating-linear-gradient(to bottom left , midnightblue , black);*/
     grid-template-rows: repeat(6,1fr)15%;
 }
 #dawn
 {
-    color: lightblue;
-    background-image: repeating-linear-gradient(to bottom, darkblue , goldenrod);
+    /*color: lightblue;*/
+    /*background-image: repeating-linear-gradient(to bottom, darkblue , goldenrod);*/
     grid-template-rows: repeat(7,1fr) 15% ;
 }
 body
 {
+    margin: 0;
     text-align: center;
-    margin: 3%;
     display: grid;
     grid-template-columns: repeat(12,1fr);
-    grid-template-rows: repeat(9,1fr) 15%;
+    grid-template-rows: repeat(8,1fr) 15%;
     grid-gap: 5vh;
+}
+.content
+{
+    grid-column: 1/13;
+    grid-row: 2/7 ;
+    margin: 3%;
 }
 
 header
@@ -42,18 +48,17 @@ header
     /*position: fixed;*/
     display: grid;
     grid-template-columns: repeat(4,1fr);
-    grid-template-rows: 1fr;
-    grid-gap: 5%;
 }
 
 footer
 {
     grid-column: 1/13;
-    grid-row: 10;
+    grid-row: 9;
     background-image: repeating-linear-gradient(to top, yellow , wheat);
     display: grid;
     grid-template-columns: 30% 1fr 30%;
     grid-template-rows: 1fr 1fr;
+    margin: 1%;
 }
 a
 {
@@ -66,14 +71,17 @@ a
 #Home
 {
     grid-column: 1;
+    border-right: 1px solid red;
 }
 #Skills
 {
     grid-column: 2;
+    border-right: 1px solid red;
 }
 #Projects
 {
     grid-column: 3;
+    border-right: 1px solid red;
 }
 #Education
 {
@@ -84,17 +92,19 @@ a
     text-decoration-line: none;
 
 }
+header
+{
+    background: lightcoral;
+}
 header a , header span
 {
     padding: 15%;
-    border-radius: 15%;
-    box-shadow: 1px 1px 3px blue;
 }
 button
 {
-    color: lightcoral;
-    width: 100%;
-    height: 100%;
+    /*color: lightcoral;*/
+    /*width: 100%;*/
+    /*height: 100%;*/
     padding: 2%;
     border: none;
     background: none;
@@ -107,19 +117,19 @@ button
 }
 #dusk header div , #dusk header span
 {
-    background: skyblue;
+    /*background: skyblue;*/
 }
 #twilight header div , #twilight header span
 {
-    background: darkblue;
+    /*background: darkblue;*/
 }
 #midnight header div , #midnight header span
 {
-    background: midnightblue;
+    /*background: midnightblue;*/
 }
 #dawn header div , #dawn header span
 {
-    background: darkblue;
+    /*background: darkblue;*/
 }
 /***************************************************Home**************************************************************/
 #greeting
@@ -180,7 +190,7 @@ footer div:hover
 /************************************************Skills**************************************************************/
 #languages
 {
-    grid-column: 2/7;
+    grid-column: 1/6;
     grid-row: 3/6;
 }
 #languageTable
@@ -198,24 +208,24 @@ table tr , table tr td
 
 #usedSystems
 {
-    grid-column: 7/9;
-    grid-row: 3/6;
+    grid-column: 8/10;
+    grid-row: 3/5;
 }
 #operatingSystems
 {
-    grid-column: 9/11;
-    grid-row: 3/6;
+    grid-column: 10/13;
+    grid-row: 3/5;
 }
 
 #educationLevel
 {
     grid-column: 2/6;
-    grid-row: 6/10;
+    grid-row: 6/8;
 }
 #reflections
 {
     grid-column: 6/11;
-    grid-row: 6/9;
+    grid-row: 5/8;
 }
 
 /**********************************************Projects***************************************************************/
@@ -274,7 +284,7 @@ body #Pointcounter
 #resume
 {
     grid-column: 2/12;
-    grid-row: 3/10;
+    grid-row: 3/9;
 }
 
 #resumePDF

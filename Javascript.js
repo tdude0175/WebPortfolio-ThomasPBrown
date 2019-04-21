@@ -41,7 +41,6 @@ var starsForGame = document.getElementsByClassName("star");
 var ideaList= document.getElementsByClassName("ideaList");
 var ideaDetailList= document.getElementsByClassName("detailsList");
 var listInfo = document.getElementById("listInformation");
-console.log(listInfo)
 
 
 //add event listeners for every star
