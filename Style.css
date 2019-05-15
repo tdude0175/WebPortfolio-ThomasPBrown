@@ -198,7 +198,7 @@ footer div:hover {
 
 /************************************************Skills**************************************************************/
 #languages {
-    grid-column: 1/6;
+    grid-column: 2/6;
     grid-row: 3/6;
 }
 
@@ -236,7 +236,7 @@ table tr, table tr td {
 }
 
 #reflections {
-    grid-column: 6/11;
+    grid-column: 7/12;
     grid-row: 5/8;
 }
 
