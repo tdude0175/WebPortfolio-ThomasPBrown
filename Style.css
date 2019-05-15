@@ -4,7 +4,7 @@
 /*background-image: repeating-linear-gradient(to bottom, skyblue , pink);*/
 #dusk {
 
-    grid-template-rows: repeat(6, 1fr) 15%;
+    grid-template-rows: repeat(6, 1fr) 20%;
 }
 
 #dusk footer {
@@ -17,7 +17,7 @@
 
 #midnight {
 
-    grid-template-rows: repeat(6, 1fr) 15%;
+    grid-template-rows: repeat(6, 1fr) 20%;
 }
 
 #midnight footer {
@@ -27,7 +27,7 @@
 
 #dawn {
 
-    grid-template-rows: repeat(7, 1fr) 15%;
+    grid-template-rows: repeat(7, 1fr) 20%;
 }
 
 #dawn footer {
@@ -39,8 +39,8 @@ body {
     text-align: center;
     display: grid;
     grid-template-columns: repeat(12, 1fr);
-    grid-template-rows: repeat(8, 1fr) 15%;
-    grid-gap: 5vh;
+    grid-template-rows: repeat(8, 1fr) 20%;
+    /*grid-gap: 5vh;*/
 }
 
 .content {
@@ -61,7 +61,7 @@ header {
 footer {
     grid-column: 1/13;
     background-image: repeating-linear-gradient(to top, yellow, wheat);
-    display: grid;
+    /*display: grid;*/
     grid-template-columns: 30% 1fr 30%;
     grid-template-rows: 1fr 1fr;
     margin: 1%;
@@ -96,6 +96,7 @@ a {
 
 .top {
     text-decoration-line: none;
+    font-size: 150%;
 
 }
 
@@ -115,7 +116,7 @@ button {
     border: none;
     background: none;
     font-weight: bold;
-    font-size: 80%;
+    font-size: 100%;
 }
 
 .currentPage {
@@ -143,6 +144,7 @@ button {
     text-align: center;
     grid-column: 3/11;
     grid-row: 2;
+    font-size: 150%;
 }
 
 #history {
@@ -266,7 +268,7 @@ body #Pointcounter {
 }
 
 .ideaList {
-    color: yellow;
+    color: blue;
     transition: color 300ms;
 }
 
@@ -279,11 +281,13 @@ body #Pointcounter {
     grid-row: 4/7;
     display: block;
     opacity: 0;
+    font-size: 150%;
 }
 
 #listInformation {
     grid-column: 7/11;
     grid-row: 4/7;
+    font-size: 150%;
 }
 
 /*********************************************Resume***************************************************************/
