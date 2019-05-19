@@ -4,7 +4,7 @@
 /*background-image: repeating-linear-gradient(to bottom, skyblue , pink);*/
 #dusk {
 
-    grid-template-rows: repeat(6, 1fr) 20%;
+    grid-template-rows: repeat(6, 1fr) 25%;
 }
 
 #dusk footer {
@@ -17,7 +17,7 @@
 
 #midnight {
 
-    grid-template-rows: repeat(6, 1fr) 20%;
+    grid-template-rows: repeat(6, 1fr) 25%;
 }
 
 #midnight footer {
@@ -26,8 +26,7 @@
 }
 
 #dawn {
-
-    grid-template-rows: repeat(7, 1fr) 20%;
+    grid-template-rows: repeat(7, 1fr) 25%;
 }
 
 #dawn footer {
@@ -39,7 +38,7 @@ body {
     text-align: center;
     display: grid;
     grid-template-columns: repeat(12, 1fr);
-    grid-template-rows: repeat(8, 1fr) 20%;
+    grid-template-rows: repeat(8, 1fr) 25%;
     /*grid-gap: 5vh;*/
 }
 
@@ -64,14 +63,16 @@ footer {
     /*display: grid;*/
     grid-template-columns: 30% 1fr 30%;
     grid-template-rows: 1fr 1fr;
-    margin: 1%;
+    margin-left:25%;
+    margin-right:25%;
+    font-size: 120%;
 }
 
 a {
     text-decoration-line: none;
     color: blueviolet;
-    /*font-style: italic;*/
-    font-family: 'Righteous', cursive;
+    font-style: italic;
+
 }
 
 /********************************************PageSelector*************************************************************/
@@ -115,12 +116,13 @@ button {
     padding: 2%;
     border: none;
     background: none;
-    font-weight: bold;
+    font-weight: bolder;
     font-size: 100%;
 }
 
 .currentPage {
     font-weight: bolder;
+    font-size: 170%;
 }
 
 #dusk header div, #dusk header span {
@@ -188,12 +190,13 @@ button {
 }
 
 footer div {
-    transition: color 1s, font-weight 1ms;
+    transition: color 100ms, font-weight 100ms;
 }
 
 footer div:hover {
     color: black;
     font-weight: bolder;
+
 }
 
 /************************************************Skills**************************************************************/
@@ -292,10 +295,12 @@ body #Pointcounter {
 
 /*********************************************Resume***************************************************************/
 #resume {
+
     grid-column: 2/12;
-    grid-row: 3/8;
+    grid-row: 2/7;
     height: 100%;
     width: 100%;
+    margin-top: 10%;
     overflow-y: hidden;
 }
 
