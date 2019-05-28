@@ -59,7 +59,7 @@ header {
 
 footer {
     grid-column: 1/13;
-    background-image: repeating-linear-gradient(to top, yellow, wheat);
+    background: lightgray;
     /*display: grid;*/
     grid-template-columns: 30% 1fr 30%;
     grid-template-rows: 1fr 1fr;
@@ -102,7 +102,7 @@ a {
 }
 
 header {
-    background: lightcoral;
+    background: lightgray;
 }
 
 header a, header span {
@@ -122,7 +122,7 @@ button {
 
 .currentPage {
     font-weight: bolder;
-    font-size: 170%;
+    font-size: 180%;
 }
 
 #dusk header div, #dusk header span {
@@ -255,6 +255,11 @@ body #Pointcounter {
     grid-row: 4/7;
 }
 
+#ideaList table tr td
+{
+    background: lightgray;
+}
+
 #star1 {
     grid-column: 6;
     grid-row: 6;
@@ -271,12 +276,12 @@ body #Pointcounter {
 }
 
 .ideaList {
-    color: blue;
+    color: #a85fee;
     transition: color 300ms;
 }
 
 .ideaList:hover {
-    color: blueviolet;
+    color: blue;
 }
 
 .detailsList {
