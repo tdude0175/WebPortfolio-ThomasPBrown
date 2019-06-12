@@ -153,7 +153,8 @@ button {
     grid-column: 1/13;
     grid-row: 3/7;
     font-size: 150%;
-    /*margin: 2%;*/
+    margin-left: 10%;
+    margin-right: 10%;
 }
 
 #minorInfo {
@@ -284,18 +285,27 @@ body #Pointcounter {
     color: blue;
 }
 
+#ideaList table
+{
+    width: 50%;
+    height: 50%;
+}
+
 .detailsList {
     grid-column: 7/11;
-    grid-row: 4/7;
+    grid-row: 4/6;
     display: block;
     opacity: 0;
     font-size: 150%;
+    background: lightyellow;
 }
 
 #listInformation {
     grid-column: 7/11;
-    grid-row: 4/7;
+    grid-row: 4/6;
     font-size: 150%;
+    background: lightgreen;
+
 }
 
 /*********************************************Resume***************************************************************/
