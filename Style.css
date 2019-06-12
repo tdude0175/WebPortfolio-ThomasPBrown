@@ -60,35 +60,34 @@ header {
 footer {
     grid-column: 1/13;
     background: lightgray;
-    /*display: grid;*/
-    grid-template-columns: 30% 1fr 30%;
-    grid-template-rows: 1fr 1fr;
-    margin-left:25%;
-    margin-right:25%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
     font-size: 120%;
+    margin-bottom: 0.2%;
 }
 
 a {
     text-decoration-line: none;
-    color: blueviolet;
+    color: darkblue;
     font-style: italic;
+    font-weight: bold;
 
 }
 
 /********************************************PageSelector*************************************************************/
 #Home {
     grid-column: 1;
-    border-right: 1px solid red;
+    border-right: 7px solid yellow;
 }
 
 #Skills {
     grid-column: 2;
-    border-right: 1px solid red;
+    border-right: 7px solid yellow;
 }
 
 #Projects {
     grid-column: 3;
-    border-right: 1px solid red;
+    border-right: 7px solid yellow;
 }
 
 #Education {
@@ -167,37 +166,40 @@ button {
 
 /*********************************************************Footer******************************************************/
 #gmail {
+    height: 100%;
     grid-column: 1;
-    grid-row: 1;
     box-shadow: darkslategrey 0 0 5px;
 }
 
 #otherInfo {
-    grid-column: 1;
-    grid-row: 2;
+    height: 100%;
+    grid-column: 2;
     box-shadow: darkslategrey 0 0 5px;
 }
 
 #codeCrew {
+    height: 100%;
     grid-column: 3;
-    grid-row: 1;
     box-shadow: darkslategrey 0 0 5px;
 }
 
 #youTube {
-    grid-column: 3;
-    grid-row: 2;
+    height: 100%;
+    grid-column: 4;
     box-shadow: darkslategrey 0 0 5px;
 }
 
 footer div {
-    transition: color 100ms, font-weight 100ms;
+    transition: color 100ms, font-weight 100ms, font-size 100ms;
+    padding-bottom: 1%;
+    padding-top: 2%;
+    background: lightgray;
 }
 
 footer div:hover {
     color: black;
     font-weight: bolder;
-
+    font-size: 120%;
 }
 
 /************************************************Skills**************************************************************/
@@ -298,6 +300,7 @@ body #Pointcounter {
     opacity: 0;
     font-size: 150%;
     background: lightyellow;
+
 }
 
 #listInformation {
@@ -305,7 +308,8 @@ body #Pointcounter {
     grid-row: 4/6;
     font-size: 150%;
     background: lightgreen;
-
+    padding-left: 2%;
+    padding-right: 2%;
 }
 
 /*********************************************Resume***************************************************************/
