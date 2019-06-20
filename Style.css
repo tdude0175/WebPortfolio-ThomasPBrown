@@ -108,6 +108,16 @@ header a, header span {
     padding: 15%;
 }
 
+header a
+{
+    transition: 0.4s;
+}
+
+header a:hover
+{
+    background: lightslategray;
+}
+
 button {
     /*color: lightcoral;*/
     /*width: 100%;*/
@@ -122,6 +132,7 @@ button {
 .currentPage {
     font-weight: bolder;
     font-size: 180%;
+    background: white;
 }
 
 #dusk header div, #dusk header span {
@@ -310,6 +321,7 @@ body #Pointcounter {
     background: lightgreen;
     padding-left: 2%;
     padding-right: 2%;
+    border-radius: 5%;
 }
 
 /*********************************************Resume***************************************************************/
