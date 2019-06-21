@@ -161,7 +161,7 @@ button {
 
 #history {
     grid-column: 1/13;
-    grid-row: 3/6;
+    grid-row: 3/8;
     font-size: 150%;
     margin-left: 10%;
     margin-right: 10%;
@@ -343,3 +343,4 @@ body #Pointcounter {
     /*scrollbar: no;*/
     /*zoom: normal;*/;
 }
+
