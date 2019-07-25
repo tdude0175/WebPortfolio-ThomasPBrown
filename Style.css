@@ -72,8 +72,13 @@ a {
     font-size: 150%;
 }
 
-header a, header span {
-    padding: 5%;
+header a {
+    padding-top: 7%;
+}
+header span
+{
+    padding-top: 9%;
+    font-size: 170%;
 }
 
 header a
