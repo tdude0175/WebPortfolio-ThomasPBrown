@@ -188,6 +188,10 @@ footer div:hover {
     grid-row: 3/6;
 }
 
+#languageTable
+{
+    width: 50%;
+}
 
 table tr, table tr td {
     /*border: 1px solid blue;*/
