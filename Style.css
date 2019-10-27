@@ -249,7 +249,7 @@ body #Pointcounter {
 
 .ideaList {
     color: #a85fee;
-    transition: color 300ms;
+    transition: color 150ms;
 }
 
 .ideaList:hover {
@@ -263,23 +263,42 @@ body #Pointcounter {
 }
 
 .detailsList {
-    grid-column: 7/11;
+    grid-column: 4/11;
     grid-row: 3/5;
     display: block;
-    opacity: 0;
     /*font-size: 130%;*/
     background: lightyellow;
+}
 
+.blueone{
+    background: #5691C2;
+}
+.bluetwo{
+    background: #6B9ECA;
+}
+.bluethree{
+    background: #80ACD1;
+}
+.bluefour{
+    background: #95BAD9;
+}
+.bluefive{
+    background: #AAC8E0;
+}
+.bluesix{
+    background: #BFD5E8;
+}
+.blueseven{
+    background: #D4E3EF;
 }
 
 #listInformation {
-    grid-column: 7/11;
+    color: white;
+    grid-column: 4/11;
     grid-row: 3/5;
-    /*font-size: 130%;*/
-    background: lightgreen;
+    background: #4183BB;
     padding-left: 2%;
     padding-right: 2%;
-    border-radius: 5%;
 }
 
 /*********************************************Resume***************************************************************/
