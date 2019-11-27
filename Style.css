@@ -30,6 +30,10 @@ header {
 }
 
 footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
     grid-column: 1/13;
     grid-row: 8;
     background: lightgray;
