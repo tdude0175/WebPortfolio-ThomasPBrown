@@ -208,7 +208,7 @@ footer div:hover {
 }
 #languageTable tr td:hover
 {
-    background-color: green;
+    background-color: lightgreen;
 }
 table tr, table tr td {
     /*border: 1px solid blue;*/
