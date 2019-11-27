@@ -179,16 +179,16 @@ button {
 }
 
 footer div {
-    transition: color 100ms, font-weight 100ms, font-size 100ms;
+    transition: background-color 300ms, font-weight 100ms, font-size 100ms;
     padding-bottom: 1%;
     padding-top: 2%;
     background: lightgray;
 }
 
 footer div:hover {
-    color: black;
+    background-color: black;
     font-weight: bolder;
-    font-size: 120%;
+    font-size: 100%;
 }
 
 /************************************************Skills**************************************************************/
