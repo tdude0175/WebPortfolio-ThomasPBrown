@@ -51,6 +51,14 @@ a {
 
 }
 
+p, td, li{
+    font-size: 24px;
+}
+
+th{
+    font-size: 24px;
+}
+
 /********************************************PageSelector*************************************************************/
 #Home {
     grid-column: 1;
@@ -108,7 +116,7 @@ button {
 
 .currentPage {
     font-weight: bolder;
-    font-size: 150%;
+    font-size: 24px;
     background: white;
 }
 
