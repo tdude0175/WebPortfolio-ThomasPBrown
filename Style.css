@@ -297,8 +297,8 @@ body #Pointcounter {
 /*********************************************Resume***************************************************************/
 #resume {
 
-    grid-column: 5/9;
-    grid-row: 3/8;
+    grid-column: 3/11;
+    grid-row: 2/8;
     height: 100%;
     width: 100%;
     overflow-y: hidden;
@@ -308,7 +308,5 @@ body #Pointcounter {
     height: 100%;
     width: 100%;
     overflow-x: hidden;
-    /*scrollbar: no;*/
-    /*zoom: normal;*/;
 }
 
